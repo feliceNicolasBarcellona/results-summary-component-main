@@ -1,0 +1,17 @@
+.main {
+  max-width: 80rem;
+  height: 98vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+  .main {
+    max-width: 26.6667rem;
+    height: auto;
+  }
+}
+
+

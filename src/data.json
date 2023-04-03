@@ -1,9 +1,4 @@
-import Footer from './components/Footer';
-import Main from './components/Main';
-
-import "./App.css";
-
-const data = [
+[
   {
     "category": "Reaction",
     "score": 80,
@@ -26,14 +21,5 @@ const data = [
   }
 ]
 
-const App = () => {
- 
-  return (
-    <div>
-      <Main items={data}/>
-      <Footer />
-    </div>
-  );
-};
 
-export default App;
+
